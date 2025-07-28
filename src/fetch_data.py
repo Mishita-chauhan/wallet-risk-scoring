@@ -35,6 +35,7 @@ def fetch_wallet_features(wallets):
     for wallet in tqdm(wallets):
         result = query_graph(wallet)
         
+    
         print(f"Fetched data for wallet {wallet}: {result}")
 
         if result and result.get("data", {}).get("account"):
