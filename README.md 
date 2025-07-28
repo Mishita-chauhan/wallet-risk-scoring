@@ -10,15 +10,4 @@ This project builds a machine learning pipeline to assess the **financial risk o
 - This can be used by DeFi platforms to identify **low-risk and high-risk wallets** for lending or creditworthiness.
 
 ---
-#  Wallet Risk Scoring using Compound Protocol Data
 
-This project builds a machine learning pipeline to assess the **financial risk of DeFi wallets** interacting with the Compound protocol.
-
----
-
-##  Objective
-
-- To assign a **risk score (0–1000)** to each wallet using transaction-level features such as supply, borrow, and balance values.
-- This can be used by DeFi platforms to identify **low-risk and high-risk wallets** for lending or creditworthiness.
-
----
