@@ -34,6 +34,9 @@ def fetch_wallet_features(wallets):
     data = []
     for wallet in tqdm(wallets):
         result = query_graph(wallet)
+        
+        print(f"Fetched data for wallet {wallet}: {result}")
+
         if result and result.get("data", {}).get("account"):
             tokens = result["data"]["account"]["tokens"]
             total_supply = sum(float(t.get("lifetimeSupply", 0)) for t in tokens)
